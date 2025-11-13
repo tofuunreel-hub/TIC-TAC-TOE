@@ -37,13 +37,13 @@ body{
     text-align: center;
     display: none;
 }
-#msg.success {
+#msg .success {
     border: 1px solid lightgreen;
     background-color: lightseagreen;
     color: lightgreen;
     display: block;
 }
-#msg.danger {
+#msg .danger {
     border: 1px solid lightcoral;
     background-color: lightpink;
     color: lightcoral;
@@ -64,8 +64,10 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-weight: 900;
+    font-size: 3rem;
 }
-.gird.col:hover{
+.gird .col:hover{
     background-color: brown;
 }
 .reset{
